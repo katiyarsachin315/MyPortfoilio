@@ -8,6 +8,7 @@ menuIcon.onclick = () =>{
   navbar.classList.toggle('active')
 };
 
+
 // ==================== Scroll Setion active links =====================
 
 let sections = document.querySelectorAll('section');
@@ -28,6 +29,14 @@ window.onscroll = () => {
         };
 
     });
+    
+// // ==================== Sticky navbar =====================
+
+let header = document.querySelector('header');
+header.classList.toggle('sticky', window.scrollY >100);
+
+    menuIcon.classList.remove('bx-x')
+    navbar.classList.remove('active')
 };
 
 // // Get all the navigation links
@@ -73,9 +82,5 @@ window.onscroll = () => {
 //   currentNavLink.classList.add('active');
 // });
 
-// // ==================== Sticky navbar =====================
 
-// let header = document.querySelector('header');
-
-// header.classList.toggle('sticky', window.scrollY >100);
 
