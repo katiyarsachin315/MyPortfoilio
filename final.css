@@ -447,9 +447,9 @@ span{
         font-size: 5rem;
     }
 
-    .home-img img{
+    .home-image img{
         width: 70vw;
-        margin-top: 4rem;
+        margin-top: 5rem;
     }
 
     .about{
@@ -464,4 +464,13 @@ span{
     .services h2{
         margin-bottom: 3rem;
     }
+
+    /* .portfolio-container{
+        width: 35rem;
+        flex-direction: column;
+    }
+
+    .portfolio-container img{
+        width: 100%;
+    } */
 }
