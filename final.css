@@ -83,9 +83,11 @@ section{
     align-items: center;
 }
 
-.home-image image{
-    width: 35vw;
+.home-image img{
+    width: 30vw;
 }
+
+
 
 span{
     color: var(--main-color);
@@ -157,7 +159,7 @@ span{
 }
 
 .about-img img{
-     width: 35vw;
+     width: 30vw;
 }
 
 .heading{
